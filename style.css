@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9cd6c;
+}
+
+.main {
+  background-color: aliceblue;
+  width: 265px;
+  margin: 5rem auto;
+  height: 540px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.header {
+  position: relative;
+  height: 13%;
+}
+
+#clock {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.icon-header {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 14px;
+}
+
+.text-top {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.content {
+  width: 100%;
+  height: 77%;
+  background-color: #eaeaea;
+}
+
+.allbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box1 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100px;
+  height: 110px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box1:hover{
+  background-color: #f9cd6c;
+  transform: scale(1.1);
+}
+
+.box2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100px;
+  height: 110px;
+  margin-top: 20px;
+  margin-right: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box2:hover{
+  background-color: #f9cd6c;
+  transform: scale(1.1);
+}
+
+img {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.p-yai{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.p-noy{
+  display:flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 9px;
+  color: grey;
+  font-family: sans-serif;
+}
+
+
+.icon-bottom {
+  display: flex;
+  text-align: center;
+  color: grey;
+}
+
+
+.home-icon {
+  margin-top: 7px;
+  margin-left:18px;
+  font-size: 15px;
+}
+
+.home-icon:hover{
+  
+  background-color: #f9cd6c;
+}
+
+.text-icon {
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+.home-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.line{
+    
+    width: 100px;
+    height: 3px;
+    background-color: gray;
+    border-radius: 30px;
+    margin-top: 8px;
+
+}
